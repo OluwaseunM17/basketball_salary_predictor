@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-model=pickle.load(open("nba_model.pkl","rb"))
+model=pickle.load(open("nba_sp.pkl","rb"))
 st.title("Basketball Salary Predictor")
 st.sidebar.header('Player Data')
 img=Image.open("pexels-markus-spiske-1752757.jpg")
